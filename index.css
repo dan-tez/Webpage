@@ -1,0 +1,252 @@
+#herosection
+{
+    background-image: url(images/image_fx_\ \(12\).jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    align-content: center;
+    background-attachment: fixed;
+}
+.image-overlay
+{
+    align-content: center;
+    width: 100%;    
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+#intro
+{
+    color: #ffffff;
+    text-align: center;
+    font-size:50px ;
+    font-weight: 400;
+    line-height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#intr2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    color: #ffffff;
+}
+#learnmore
+{
+  background-color: #ffffff; /* No background */
+  border: 1px solid #e34c00; /* No border */
+  color: #000000; /* Text color */
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0); /* Shadow effect */
+  font-family: 'Open Sans', sans-serif; /* Font family */
+  font-size: 16px; /* Font size */
+  line-height: 18px; /* Line height */
+  font-weight: 400; /* Font weight */
+  letter-spacing: 0em; /* No letter spacing */
+  text-transform: uppercase; /* Uppercase text */
+  border-radius: 4em; /* Rounded corners */
+  width: 8em; /* Relative width */
+  height: 3em; /* Relative height */
+  position: absolute;
+  left: 50%;
+  padding: 10px 10px 10px 10px; 
+}
+#learnmore:hover
+{
+  color: #e34c00; /* Text color on hover */
+  box-shadow: 0px 0px 0px 2px rgba(227, 76, 0, 1); /* Shadow on hover */
+}
+
+#image-text
+{
+    margin: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image
+{
+    width:600px;
+    border-radius: 15px;
+}
+#description
+{
+  margin: 50px;
+}
+#grow
+{
+    font-size: 35px;
+    line-height: 49px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    text-align: left;
+}
+#text
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+#left
+{
+    background-color: #f6ce30;
+    color: black; 
+    border: 2px solid #f6ce30; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    text-align: left; 
+}
+#left:hover
+{
+    background-color: transparent; 
+    color: #000; 
+    box-shadow: inset 0 0 0 2px #f6ce30;
+}
+#image-two{
+    width:600px;
+    height: 400px;
+    border-radius: 15px;
+}
+#ourservices
+{
+    width: 100%;
+    height: 40vh;
+    background-image: url(images/image_fx_\ \(17\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#overlay
+{
+    background-color: #000000cc;
+    width: 100%;
+    height: 38vh;
+    padding-top: 20px;
+}
+#services
+{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#services-icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icons
+{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    margin-left: 17px;
+}
+.fa-code
+{
+    font-size: 2.8rem;
+}
+#counter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;   
+}
+#achievementsheading
+{
+  display: block;
+}
+#achievements-overlay
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ba07dbb;
+    height: 30vh;
+}
+#achievements
+{
+    background-image: url(images/image_fx_\ \(5\).jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+}
+#counters
+{
+    margin-left: 20px;
+
+}
+#achieve
+{
+font-size: 22px;
+text-align: left;
+}
+#grow
+{
+font-size: 35px;
+text-align: left;
+}
+.count
+{
+font-size: 50px;
+color: #ffffff;
+font-family: 'Times New Roman', Times, serif;
+}
+#countdescription
+{
+font-size: 20px;
+color: #ffffff;
+}
+#topapps {
+    text-align: center;
+    padding: 20px;
+    background-image: url(images/image_fx_\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#topapps h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #eecd12;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+#topapps-overlay {
+    background-color: #000000b2;
+    height: 80vh;
+    display: block;
+    justify-content: center;
+   
+}
+
+#topapps-overlay img {
+    width: 400ox;
+    height: 600px;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#topapps-overlay img:hover {
+    transform: scale(1.1);
+}
+#games
+{
+    gap: 40px; 
+    margin-left: 40px;
+
+}
